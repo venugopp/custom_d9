@@ -1,0 +1,30 @@
+/vendor
+/core
+/modules/contrib
+/themes/contrib
+
+libraries
+
+/.gitattributes
+/.ht.router.php
+/.htaccess
+/INSTALL.txt
+/LICENSE.txt
+/README.md
+/autoload.php
+/example.gitignore
+/index.php
+/robots.txt
+/update.php
+/web.config
+
+# Ignore configuration files that may contain sensitive information.
+#sites/*/settings*.php
+#sites/*/services*.yml
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+# Ignore SimpleTest multi-site environment.
+sites/simpletest
