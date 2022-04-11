@@ -1,30 +1,37 @@
 /vendor
-/core
-/modules/contrib
-/themes/contrib
+/web/core
+/web/profiles
+/web/modules/contrib
+/web/themes/contrib
+
 
 libraries
 
-/.gitattributes
-/.ht.router.php
-/.htaccess
-/INSTALL.txt
-/LICENSE.txt
-/README.md
-/autoload.php
-/example.gitignore
-/index.php
-/robots.txt
-/update.php
-/web.config
+/web/.gitignore
+/web/modules/.gitignore
+/web/themes/.gitignore
+/web/.gitattributes
+/web/.ht.router.php
+/web/.htaccess
+/web/INSTALL.txt
+/web/LICENSE.txt
+/web/README.md
+/web/autoload.php
+/web/example.gitignore
+/web/index.php
+/web/robots.txt
+/web/update.php
+/web/web.config
 
 # Ignore configuration files that may contain sensitive information.
 #sites/*/settings*.php
 #sites/*/services*.yml
 
 # Ignore paths that contain user-generated content.
-sites/*/files
-sites/*/private
+/web/sites
+#/web/sites/*/files
+#/web/sites/*/private
 
 # Ignore SimpleTest multi-site environment.
-sites/simpletest
+/web/sites/simpletest
+/web/.editorconfig
