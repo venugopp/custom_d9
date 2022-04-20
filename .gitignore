@@ -1,11 +1,8 @@
 /vendor
-/web/core
-/web/profiles
-/web/modules/contrib
-/web/themes/contrib
+/web
 
 
-libraries
+/libraries
 
 /web/.gitignore
 /web/modules/.gitignore
